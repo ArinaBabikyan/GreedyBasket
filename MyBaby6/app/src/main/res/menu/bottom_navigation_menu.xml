@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Искать"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search"/>
+    <item
+        android:title="Корзина"
+        android:id="@+id/basket"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"/>
+    <item
+        android:title="Профиль"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

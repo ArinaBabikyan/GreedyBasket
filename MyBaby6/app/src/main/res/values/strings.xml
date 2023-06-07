@@ -1,0 +1,6 @@
+<resources>
+    <string name="title_activity_main_home_page">Main_Home_Page</string>
+    <string name="title_home">Search</string>
+    <string name="title_dashboard">Basket</string>
+    <string name="title_notifications">Profile</string>
+</resources>

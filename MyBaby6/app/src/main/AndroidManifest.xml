@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mybaby6"
+    >
+<supports-screens android:smallScreens="true"
+    android:normalScreens="true"
+    android:largeScreens="true"
+    android:xlargeScreens="true"
+    android:anyDensity="true" />
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mybaby6"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyBaby6"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Main_Home_Page"
+            android:exported="false"
+            android:label="@string/title_activity_main_home_page" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="Mybaby6" />
+        <activity
+            android:name=".registration"
+            android:label="Mybaby6" />
+        <activity
+            android:name=".home_page"
+            android:label="Mybaby6" />
+        <activity
+            android:name=".inShop"
+            android:label="Mybaby6" />
+    </application>
+
+</manifest>
