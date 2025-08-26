@@ -1,6 +1,5 @@
 # GreedyBasket
 
-## Overview
 Smart Shopping Optimizer is a project designed to **minimize online shopping time** by automatically finding the **cheapest product set across multiple stores**. The system enables users to make **optimized purchasing decisions** faster and more efficiently.
 
 ## Key Features
